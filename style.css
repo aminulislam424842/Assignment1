@@ -338,3 +338,54 @@ nav ul {
   background: #1e40af;
 }
 
+/* WHY ATTEND SECTION */
+
+.why-attend{
+    padding: 80px 0;
+}
+
+/* Section Header */
+
+.why-header{
+    text-align: center;
+}
+
+.why-header h2{
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.why-header p{
+  font-size: 16px;
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.why-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Cards */
+
+.why-card{
+    width: 300px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.why-card h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.why-card p{
+    color: #575757;
+    line-height: 1.6;
+}
