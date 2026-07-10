@@ -173,3 +173,168 @@ nav ul {
   font-weight: 400;
   font-style: normal;
 }
+/*  PRICING SECTION  */
+
+.pricing {
+  padding: 100px 8%;
+  gap: 30px;
+  text-align: center;
+}
+
+/* Pricing Header */
+
+.pricing-header {
+  margin-bottom: 60px;
+}
+
+.pricing-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #0D1B2A;
+  margin-bottom: 12px;
+}
+
+.pricing-subtitle {
+  font-size: 16px;
+  color: #575757;
+  font-weight: 400;
+}
+
+.pricing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Pricing Cards */
+
+.pricing-card {
+  flex: 1;
+  max-width: 340px;
+  padding: 32px 28px;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.standard-card {
+  background: #ffffff;
+  border: 1px solid #E5E7EB;
+}
+
+.pro-card {
+  background: #0D1B2A;
+  border: 1px solid #0D1B2A;
+  padding: 40px 28px;       
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid #E5E7EB;
+}
+
+/* Plan Details  */
+
+.plan-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888;
+  margin-bottom: 16px;
+}
+
+.pro-card .plan-name {
+  color: #93c5fd;
+}
+
+/*  PRICE  */
+
+.plan-price {
+  font-size: 44px;
+  font-weight: 800;
+  color: #0D1B2A;
+  margin-bottom: 4px;
+}
+
+.pro-card .plan-price {
+  color: #ffffff;
+}
+
+.plan-duration {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+/* DIVIDER  */
+
+.card-line {
+  border: none;
+  border-top: 1px solid #E5E7EB;
+  margin-bottom: 24px;
+}
+
+.pro-card .card-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/*  FEATURES LIST  */
+
+.plan-features {
+  margin-bottom: 32px;
+}
+
+.plan-features li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #374151;
+  list-style: inside;
+}
+.plan-features li::marker{
+  color: #1D4ED8;
+}
+
+.pro-card .plan-features li {
+  color: #e5e7eb;
+}
+
+/*  Pricing Buttons */
+
+.plan-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #ffffff;
+  color: #1D4ED8;
+  border: 1.5px solid #1D4ED8;
+}
+
+.standard-card .plan-btn:hover {
+  background: #f0f5ff;
+}
+
+.team-card .plan-btn {
+  background: #ffffff;
+  color: #111827;
+  border: 1.5px solid #d1d5db;
+}
+
+.team-card .plan-btn:hover {
+  background: #f9fafb;
+}
+
+.pro-card .common-btn {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.pro-card .common-btn:hover {
+  background: #1e40af;
+}
+
