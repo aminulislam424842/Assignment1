@@ -1,0 +1,61 @@
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 100%;
+  padding: 22px 8%;
+}
+
+/*  NAVBAR  */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-link li {
+  list-style: none;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+}
+
+.nav-link li a:hover {
+  color: #111827;
+}
+
+.common-btn {
+  background: #1D4ED8;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
